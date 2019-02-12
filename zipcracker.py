@@ -15,7 +15,7 @@ def getFirstMemberName(zip):
   while(membername[-1] == "/"):    # a single file and not a directory
     i += 1                         # for performance reasons. I'm avoding
     membername = zip.namelist()[i] # the use of extractall method
-    return membername
+  return membername
 
 
 
