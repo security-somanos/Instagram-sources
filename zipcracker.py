@@ -41,7 +41,7 @@ with ZipFile(filename, "r") as zip:
      print("Password found: " + password)
    except:
      pass
-   zip.close()
+ zip.close()
 
 
 
